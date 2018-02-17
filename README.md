@@ -1,24 +1,20 @@
-# README
+# Rails 5で多対多の関連を作成するサンプル
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+users, groupsが多対多になっている。
 
-Things you may want to cover:
+## セットアップ
 
-* Ruby version
+```
+bundle install
+bin/rails db:setup
+```
 
-* System dependencies
+## 実行
 
-* Configuration
+```
+bin/rails runner sample.rb
+```
 
-* Database creation
+## 解説
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+gitの各コミットの内容を見れば分かります。
